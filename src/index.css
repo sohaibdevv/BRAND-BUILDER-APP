@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-art-green: #C4FF00;
+  --color-art-dark: #0A0A0A;
+  --color-art-coal: #111111;
+  --color-art-border: #333333;
+  --color-art-gray: #AAAAAA;
+}
+
+/* Custom mockups and newspaper styles */
+.newspaper-cols {
+  column-count: 2;
+  column-gap: 1.5rem;
+}
+
+/* Base style resets */
+body {
+  font-family: var(--font-sans);
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+}
+
+
